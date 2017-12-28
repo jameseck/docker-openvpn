@@ -1,0 +1,12 @@
+package:
+  openvpn:
+    installed: true
+process:
+  openvpn:
+    running: true
+#command:
+#  "curl --proxy http://localhost:3128 --proxy-user squid:squid  --proxy-basic google.com -o /dev/null -s -w %{http_code}":
+#    exit-status: 0
+#    stdout:
+#    - 302
+#    timeout: 10000 # in milliseconds
